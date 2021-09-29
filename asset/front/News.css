@@ -1,0 +1,77 @@
+
+.news-banner
+{
+    color: #fff;
+    text-align: center;
+    padding: 125px 0;
+    background: url(../img/evo-blog-banner.jpg) center /cover  no-repeat ;
+}
+.news-watch
+{
+    margin: 20px 145px 0;
+}
+.news-content
+{
+    flex-wrap: wrap;
+    margin: 0;
+}
+.news-item
+{
+   width: 31%;
+   margin: 0 13px 13px;
+}
+.news-item__img
+{
+    width: 367px;
+    height: 230px;
+}
+.pagination
+{
+    width: 150px;
+    margin: 20px auto 50px;
+}
+.pagination-previus
+{
+    border: 1px solid #ccc;
+    padding: 3px 10px;
+    margin: 3px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.pagination-active
+{
+    padding: 3px 10px;
+    margin: 3px;
+    color: #fff;
+    background-color: #916841;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pagination-page
+{
+    padding: 3px 10px;
+    margin: 3px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+    
+}
+.pagination-next
+{
+    padding: 3px 10px;
+    margin: 3px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+
+}
+.pagination-previus:hover,
+.pagination-page:hover,
+.pagination-next:hover
+{
+    background-color: #916841;
+    cursor: pointer;
+    color: #fff;
+}
+
+

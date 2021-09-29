@@ -1,0 +1,161 @@
+.list-item_banner
+{
+    padding: 130px 160px ;
+    color: white;
+    background: url(/asset/img/evo-col-banner.jpg) center /cover no-repeat;
+}
+.list-item_wrap
+{
+    margin: 20px 160px;
+}
+.list-item_content
+{
+    display: flex;
+
+}
+.list-item_left
+{
+    width: 23%;
+}
+.list-item-category
+{
+    border-bottom: 1px solid #ccc;
+}
+.list-item-category span
+{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+.list-item-category_list
+{
+    list-style: none;
+    padding: 0;
+}
+.list-item-category_item
+{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.list-item-category_item:hover
+{
+    color: #916841;
+    cursor: pointer;
+}
+.search-for_title
+{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.list-item_search-for label
+{
+    color: rgb(136, 134, 134);
+}
+.list-item_search-for label:hover
+{
+    color: #916841;
+    cursor: pointer;
+}
+.list-item_right
+{
+    margin-left: 20px;
+    width: 75%;
+}
+.list-item_right--top
+{
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+.list-item_right--top span
+{
+    font-weight: 500;
+    padding-right: 5px;
+    font-size: 18px;
+}
+.list-item_right--top input
+{
+    color: #916841;
+    cursor: pointer;
+}
+.list-item_right--top label
+{
+    margin-right:5px ;
+    font-size: 18px;
+}
+.list-item_right--top label:hover
+{
+    color: #916841;
+    cursor: pointer;
+}
+.list-item_right--bottom
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 670px;
+}
+.product-content
+{
+    height: 287px;
+}
+
+/* Responsive */
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px)
+{
+    .list-item_banner
+    {
+        padding: 100px 20px;
+    }
+    .list-item_wrap
+    {
+        margin: 10px;
+    }
+    .list-item_left
+    {
+        display: none;
+    }
+    .list-item_right
+    {
+        width: 100%;
+        margin: 0;
+    }
+    .product-content {
+        height: 258px;
+    }
+}
+@media (max-width: 739px)
+{
+    .list-item_banner
+    {
+        padding: 80px 10px;
+    }
+    .list-item_wrap
+    {
+        margin: 10px;
+    }
+    .list-item_left
+    {
+        display: none;
+    }
+    .list-item_right
+    {
+        width: 100%;
+        margin: 0;
+    }
+    .product-content {
+        height: 238px;
+    }
+    .list-item_right--top
+    {
+        display: none;
+    }
+    .list-item_right--bottom
+    {
+        overflow: hidden;
+        height: 570px;
+    }
+}

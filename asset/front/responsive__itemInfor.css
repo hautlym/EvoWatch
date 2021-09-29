@@ -1,0 +1,56 @@
+/* Tablet */
+@media (min-width:740px) and (max-width:1023px)
+{
+    .breadcrumb
+    {
+        padding: 0.75rem 1rem;
+    }
+    .introduce-product,
+    .product-infor
+    {
+        padding: 10px 20px;
+    }
+    .product-infor__content--btn
+    {
+        width: 100%;
+    }
+    .product-infor__content--policy--item
+    {
+        font-size: 12px;
+    }
+}
+@media (max-width:739px)
+{
+    .breadcrumb
+    {
+        padding: 0.75rem 1rem;
+    }
+    .introduce-product,
+    .product-infor
+    {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .product-infor__content--btn
+    {
+        width: 100%;
+    }
+    .product-infor__content--policy--item
+    {
+        font-size: 12px;
+    }
+    .product-infor__content,
+    .product-infor__img
+    {
+        width: 100%;
+        margin: 10px;
+    }
+    .display__none
+    {
+        display: none;
+    }
+    .title
+    {
+        font-size: 20px;
+    }
+}

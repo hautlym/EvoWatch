@@ -1,0 +1,29 @@
+/* Tabet */
+@media (min-width: 724px) and (max-width:1023px)
+{
+    .shop-system_content
+    {
+        margin: 10px;
+    }
+}
+/* Mobile */
+@media (max-width: 723px)
+{
+    .shop-system_content
+    {
+        margin: 0px;
+        display: block;
+    }
+    .address-list
+    {
+        margin-bottom: 10px;
+    }
+    iframe
+    {
+        width: 100%;
+    }
+    .shop-system__information
+    {
+        margin: 0 10px;
+    }
+}

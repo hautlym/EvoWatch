@@ -1,0 +1,29 @@
+
+.about-banner
+{
+    text-align: center;
+    padding: 100px 0;
+    background: url(../img/evo-page-banner.jpg) center /cover no-repeat;
+}
+.exchange_policy_content
+{
+    margin: 10px 160px;
+}
+
+/* responsive */ 
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px)
+{
+    .exchange_policy_content
+    {
+        margin: 10px ;
+    }
+}
+/* Mobile */
+@media (max-width: 739px)
+{
+    .exchange_policy_content
+    {
+        margin: 10px ;
+    }
+}

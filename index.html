@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evo Watch</title>
+    <link rel="icon" href="./asset/img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./asset/front/fontawesome-free-5.15.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./asset/front/bootstrap-4.5.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./asset/front/bootstrap-4.5.3-dist/js/bootstrap.bundle.js">
+    <link rel="stylesheet" href="./asset/front/main.css">
+    <link rel="stylesheet" href="./asset/front/responsive_main.css">
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <div class="header-search">
+                <div class="header-search-box">
+                    <input type="text" name="search" id="" placeholder="Bạn cần tìm gì ? ">
+                    <i class="fas fa-search"></i>
+                </div>
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="header-top">
+                <div class="header-top__menu--iconbar">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="header-top__hotline">
+                    HOTLINE ĐẶT HÀNG: 
+                    <a href="tel:0987654321">0987 654 321</a>
+                </div>
+                <a href="./index.html" class ="header-top__link">
+                    <img src="./asset/img/logo.png" alt="evo watch" class="header-top__logo">
+                </a>
+                <div class="header-top__menu">
+                    <div class="header-top__menu--account">
+                        <a href="">TÀI KHOẢN</a> 
+                        <ul class="header-top__menu--account--list">
+                            <li class="header-top__menu--account-item"><a href="./login.html">ĐĂNG NHẬP</a> </li>
+                            <li class="header-top__menu--account-item"><a href="./regeiter.html"> ĐĂNG KÝ</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-top__menu--shop">
+                        <a href="">CỬA HÀNG
+                        <i class="fas fa-cart-arrow-down"></i>
+                        </a> 
+                        <div class="header-top__menu--cart">
+                            <img src="./asset/img/empty-cart.png" alt="">
+                        </div>
+                    </div>
+                    <div class="header-top__menu--icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+            </div>
+            <ul class="header-navbar">
+                <div class="header-navbar__item active"><a href="./index.html">TRANG CHỦ</a> </div>
+                <div class="header-navbar__item">
+                    <a href="">GIỚI THIỆU
+                        <i class="fas fa-chevron-down"></i>
+                    </a> 
+                    <ul class="header-navbar__item--list">
+                        <li class="header-navbar__item--item"> <a href="./exchange_policy .html">Chính sách đổi hàng</a></li>
+                        <li class="header-navbar__item--item"><a href="./FAQs.html">FAQ</a></li>
+                        <li class="header-navbar__item--item"><a href="./payment_instructions.html">Hướng dẫn thanh toán</a> </li>
+                        <li class="header-navbar__item--item"><a href="./shipping_policy.html">Chính sách vận chuyển</a> </li>
+                        <li class="header-navbar__item--item"><a href="./shop_system .html">Hệ thống của hàng</a> </li>
+                    </ul>
+                </div>
+                <div class="header-navbar__item">
+                    <a href="./list_item.html">NAM
+                        <i class="fas fa-chevron-down"></i>
+                    </a> 
+                    <ul class="header-navbar__item--list">
+                        <li class="header-navbar__item--item"><a href="./list_item.html">Đồng hồ KASHMIR</a></li>
+                        <li class="header-navbar__item--item"><a href="./list_item.html">Đồng hồ WEIMAR</a></li>
+                        <li class="header-navbar__item--item"><a href="./list_item.html">Dồng hồ COLOSSEUM</a></li>
+                    </ul>
+                </div>
+                <div class="header-navbar__item">
+                    <a href="./list_item.html">NỮ
+                    <i class="fas fa-chevron-down"></i>
+                    </a> 
+                    <ul class="header-navbar__item--list">
+                        <li class="header-navbar__item--item"><a href="./list_item.html">Bán chạy nhất</a></li>
+                        <li class="header-navbar__item--item"><a href="./list_item.html">Đồng hồ MELISSANI</a></li>
+                        <li class="header-navbar__item--item"><a href="./list_item.html">Đồng hồ MORAINE</a></li>
+                    </ul>
+                </div>
+                <div class="header-navbar__item">
+                    <a href="./list_item.html">PHỤ KIỆN
+                        <i class="fas fa-chevron-down"></i>
+                    </a> 
+                    <ul class="header-navbar__item--list">
+                        <li class="header-navbar__item--item"><a href="./list_item.html">Dây đồng hồ</a></li>
+                        <li class="header-navbar__item--item"><a href="./list_item.html">Kính râm</a></li>
+                        <li class="header-navbar__item--item"><a href="./list_item.html">Kính mắt</a></li>
+                    </ul>
+                </div>
+                <div class="header-navbar__item">
+                    <a href="./list_item.html">SẢN PHẨM
+                        <i class="fas fa-chevron-down"></i>
+                    </a> 
+                    <div class="header-navbar__item--product">
+                        <li class="header-navbar__item--product-item">
+                            <ul class="header-navbar__item--product-subnav">
+                                <div class="header-navbar__item--product-subitem-special">NAM</div>
+                                <div class="header-navbar__item--product-subitem"><a href="./list_item.html">Đồng hồ KASHMIR</a></div>
+                                <div class="header-navbar__item--product-subitem"><a href="./list_item.html">Đồng hồ WEIMAR</a></div>
+                                <div class="header-navbar__item--product-subitem"><a href="./list_item.html">Dồng hồ COLOSSEUM</a></div>
+                            </ul>
+                        </li>
+                        <li class="header-navbar__item--product-item">
+                            <ul class="header-navbar__item--product-subnav">
+                                <div class="header-navbar__item--product-subitem-special">NỮ</div>
+                                <div class="header-navbar__item--product-subitem"><a href="./list_item.html">Bán chạy nhất</a></div>
+                                <div class="header-navbar__item--product-subitem"><a href="./list_item.html">Đồng hồ MELISSANI</a></div>
+                                <div class="header-navbar__item--product-subitem"><a href="./list_item.html">Đồng hồ MORAINE</a></div>
+                            </ul>
+                        </li>
+                        <li class="header-navbar__item--product-item">
+                            <ul class="header-navbar__item--product-subnav">
+                                <div class="header-navbar__item--product-subitem-special">PHỤ KIỆN</div>
+                                <div class="header-navbar__item--product-subitem"><a href="./list_item.html">Dây đồng hồ</a></div>
+                                <div class="header-navbar__item--product-subitem"><a href="./list_item.html">Kính râm</a></div>
+                                <div class="header-navbar__item--product-subitem"><a href="./list_item.html">Kính mắt</a></div>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+                <div class="header-navbar__item"> <a href="./News.html">TIN TỨC</a> </div>
+                <div class="header-navbar__item"> <a href="./contact.html">LIÊN HỆ</a> </div>
+            </ul>
+        </div>
+        <div class="banner"  >
+            <img src="./asset/img/slider_1.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="new-product">
+                <div class="title">
+                    SẢN PHẨM <span>MỚI</span> 
+                </div>
+                <div class="product-type">
+                    <Span class="product-type__item">Nam</Span>
+                    <Span class="product-type__item">Nữ</Span>
+                    <Span class="product-type__item">Phụ kiện</Span>
+                </div>
+                <div class="product-wrap">
+                    <div class="product-content">
+                        <div class="product-img">
+                            <img src="./asset/img/dong-ho-mvmt-crux_master.jpg" alt="" class="product-img__1">
+                            <img src="./asset/img/dong-ho-mvmt-crux-2_master.jpg" alt="" class="product-img__2">
+                        </div>
+                        <div class="product-description">
+                            <div class="product-material">
+                                CARBON
+                            </div>
+                            <div class="product-name">
+                                CRUX
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__new">
+                                    4.800.000₫
+                                </div>
+                                <div class="product-price__old">
+                                    5.400.000₫
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-btn">
+                            Thêm vào giỏ hàng 
+                        </div>
+                    </div>
+
+                    <div class="product-content">
+                        <div class="product-img">
+                            <img src="./asset/img/dong-ho-mvmt-crux_master.jpg" alt="" class="product-img__1">
+                            <img src="./asset/img/dong-ho-mvmt-crux-2_master.jpg" alt="" class="product-img__2">
+                        </div>
+                        <div class="product-description">
+                            <div class="product-material">
+                                CARBON
+                            </div>
+                            <div class="product-name">
+                                CRUX
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__new">
+                                    4.800.000₫
+                                </div>
+                                <div class="product-price__old">
+                                    5.400.000₫
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-btn">
+                            Thêm vào giỏ hàng 
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-img">
+                            <img src="./asset/img/dong-ho-mvmt-crux_master.jpg" alt="" class="product-img__1">
+                            <img src="./asset/img/dong-ho-mvmt-crux-2_master.jpg" alt="" class="product-img__2">
+                        </div>
+                        <div class="product-description">
+                            <div class="product-material">
+                                CARBON
+                            </div>
+                            <div class="product-name">
+                                CRUX
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__new">
+                                    4.800.000₫
+                                </div>
+                                <div class="product-price__old">
+                                    5.400.000₫
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-btn">
+                            Thêm vào giỏ hàng 
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-img">
+                            <img src="./asset/img/dong-ho-mvmt-crux_master.jpg" alt="" class="product-img__1">
+                            <img src="./asset/img/dong-ho-mvmt-crux-2_master.jpg" alt="" class="product-img__2">
+                        </div>
+                        <div class="product-description">
+                            <div class="product-material">
+                                CARBON
+                            </div>
+                            <div class="product-name">
+                                CRUX
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__new">
+                                    4.800.000₫
+                                </div>
+                                <div class="product-price__old">
+                                    5.400.000₫
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-btn">
+                            Thêm vào giỏ hàng 
+                        </div>
+                    </div>
+                </div>
+                <div class="view-all">
+                    <span>XEM TẤT CẢ - SẢN PHẨM MỚI</span> 
+                </div>
+            </div>
+            <div class="accessories">
+                <div class="accessories-item">
+                    <div class="accessories-img">
+                        <img src="./asset/img/ant_index_banner_1.jpg" alt="">
+                    </div>
+                    <div class="accessories-description">
+                        <div class="accessories-name">
+                            Đồng hồ
+                        </div>
+                        <div class="accessories-btn">
+                            Xem thêm 
+                        </div>
+                    </div>
+                </div>
+                <div class="accessories-item">
+                    <div class="accessories-img">
+                        <img src="./asset/img/ant_index_banner_2.jpg" alt="">
+                    </div>
+                    <div class="accessories-description">
+                        <div class="accessories-name">
+                            Mắt kính
+                        </div>
+                        <div class="accessories-btn">
+                            Xem thêm 
+                        </div>
+                    </div>
+                </div>
+                <div class="accessories-item">
+                    <div class="accessories-img">
+                        <img src="./asset/img/ant_index_banner_3.jpg" alt="">
+                    </div>
+                    <div class="accessories-description">
+                        <div class="accessories-name">
+                            Phụ kiện
+                        </div>
+                        <div class="accessories-btn">
+                            Xem thêm 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="new-product">
+                <div class="title">
+                    DÀNH CHO <span>NAM</span> 
+                </div>
+                <div class="product-type">
+                    <Span class="product-type__item">Nam</Span>
+                    <Span class="product-type__item">Nữ</Span>
+                    <Span class="product-type__item">Phụ kiện</Span>
+                </div>
+                <div class="product-wrap">
+                    <div class="product-content">
+                        <div class="product-img">
+                            <img src="./asset/img/dong-ho-mvmt-crux_master.jpg" alt="" class="product-img__1">
+                            <img src="./asset/img/dong-ho-mvmt-crux-2_master.jpg" alt="" class="product-img__2">
+                        </div>
+                        <div class="product-description">
+                            <div class="product-material">
+                                CARBON
+                            </div>
+                            <div class="product-name">
+                                CRUX
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__new">
+                                    4.800.000₫
+                                </div>
+                                <div class="product-price__old">
+                                    5.400.000₫
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-btn">
+                            Thêm vào giỏ hàng 
+                        </div>
+                    </div>
+
+                    <div class="product-content">
+                        <div class="product-img">
+                            <img src="./asset/img/dong-ho-mvmt-crux_master.jpg" alt="" class="product-img__1">
+                            <img src="./asset/img/dong-ho-mvmt-crux-2_master.jpg" alt="" class="product-img__2">
+                        </div>
+                        <div class="product-description">
+                            <div class="product-material">
+                                CARBON
+                            </div>
+                            <div class="product-name">
+                                CRUX
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__new">
+                                    4.800.000₫
+                                </div>
+                                <div class="product-price__old">
+                                    5.400.000₫
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-btn">
+                            Thêm vào giỏ hàng 
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-img">
+                            <img src="./asset/img/dong-ho-mvmt-crux_master.jpg" alt="" class="product-img__1">
+                            <img src="./asset/img/dong-ho-mvmt-crux-2_master.jpg" alt="" class="product-img__2">
+                        </div>
+                        <div class="product-description">
+                            <div class="product-material">
+                                CARBON
+                            </div>
+                            <div class="product-name">
+                                CRUX
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__new">
+                                    4.800.000₫
+                                </div>
+                                <div class="product-price__old">
+                                    5.400.000₫
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-btn">
+                            Thêm vào giỏ hàng 
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-img">
+                            <img src="./asset/img/dong-ho-mvmt-crux_master.jpg" alt="" class="product-img__1">
+                            <img src="./asset/img/dong-ho-mvmt-crux-2_master.jpg" alt="" class="product-img__2">
+                        </div>
+                        <div class="product-description">
+                            <div class="product-material">
+                                CARBON
+                            </div>
+                            <div class="product-name">
+                                CRUX
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__new">
+                                    4.800.000₫
+                                </div>
+                                <div class="product-price__old">
+                                    5.400.000₫
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-btn">
+                            Thêm vào giỏ hàng 
+                        </div>
+                    </div>
+                </div>
+                <div class="view-all">
+                    <span>XEM TẤT CẢ - DÀNH CHO NAM</span> 
+                </div>
+            </div>
+            <div class="new-product">
+                <div class="title">
+                    PHỤ KIỆN <span>MỚI</span> 
+                </div>
+                <div class="product-type">
+                    <Span class="product-type__item">Nam</Span>
+                    <Span class="product-type__item">Nữ</Span>
+                    <Span class="product-type__item">Phụ kiện</Span>
+                </div>
+                <div class="product-wrap">
+                    <div class="product-content">
+                        <div class="product-img">
+                            <img src="./asset/img/dong-ho-mvmt-crux_master.jpg" alt="" class="product-img__1">
+                            <img src="./asset/img/dong-ho-mvmt-crux-2_master.jpg" alt="" class="product-img__2">
+                        </div>
+                        <div class="product-description">
+                            <div class="product-material">
+                                CARBON
+                            </div>
+                            <div class="product-name">
+                                CRUX
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__new">
+                                    4.800.000₫
+                                </div>
+                                <div class="product-price__old">
+                                    5.400.000₫
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-btn">
+                            Thêm vào giỏ hàng 
+                        </div>
+                    </div>
+
+                    <div class="product-content">
+                        <div class="product-img">
+                            <img src="./asset/img/dong-ho-mvmt-crux_master.jpg" alt="" class="product-img__1">
+                            <img src="./asset/img/dong-ho-mvmt-crux-2_master.jpg" alt="" class="product-img__2">
+                        </div>
+                        <div class="product-description">
+                            <div class="product-material">
+                                CARBON
+                            </div>
+                            <div class="product-name">
+                                CRUX
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__new">
+                                    4.800.000₫
+                                </div>
+                                <div class="product-price__old">
+                                    5.400.000₫
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-btn">
+                            Thêm vào giỏ hàng 
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-img">
+                            <img src="./asset/img/dong-ho-mvmt-crux_master.jpg" alt="" class="product-img__1">
+                            <img src="./asset/img/dong-ho-mvmt-crux-2_master.jpg" alt="" class="product-img__2">
+                        </div>
+                        <div class="product-description">
+                            <div class="product-material">
+                                CARBON
+                            </div>
+                            <div class="product-name">
+                                CRUX
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__new">
+                                    4.800.000₫
+                                </div>
+                                <div class="product-price__old">
+                                    5.400.000₫
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-btn">
+                            Thêm vào giỏ hàng 
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-img">
+                            <img src="./asset/img/dong-ho-mvmt-crux_master.jpg" alt="" class="product-img__1">
+                            <img src="./asset/img/dong-ho-mvmt-crux-2_master.jpg" alt="" class="product-img__2">
+                        </div>
+                        <div class="product-description">
+                            <div class="product-material">
+                                CARBON
+                            </div>
+                            <div class="product-name">
+                                CRUX
+                            </div>
+                            <div class="product-price">
+                                <div class="product-price__new">
+                                    4.800.000₫
+                                </div>
+                                <div class="product-price__old">
+                                    5.400.000₫
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-btn">
+                            Thêm vào giỏ hàng 
+                        </div>
+                    </div>
+                </div>
+                <div class="view-all">
+                    <span>XEM TẤT CẢ - PHỤ KIỆN MỚI</span> 
+                </div>
+            </div>
+            <div class="collection">
+                <div class="title">
+                    BỘ SƯU TẬP <span>MÙA HÈ</span> 
+                </div>
+                <div class="collection-content">
+                    <div class="collection-img">
+                        <img src="./asset/img/index-evo-icon-1.jpg" alt="">
+                    </div>
+                    <div class="collection-product ">
+                        <div class="product-content special">
+                            <div class="product-img">
+                                <img src="./asset/img/dong-ho-mvmt-crux_master.jpg" alt="" class="product-img__1">
+                                <img src="./asset/img/dong-ho-mvmt-crux-2_master.jpg" alt="" class="product-img__2">
+                            </div>
+                            <div class="product-description">
+                                <div class="product-material">
+                                    CARBON
+                                </div>
+                                <div class="product-name">
+                                    CRUX
+                                </div>
+                                <div class="product-price">
+                                    <div class="product-price__new">
+                                        4.800.000₫
+                                    </div>
+                                    <div class="product-price__old">
+                                        5.400.000₫
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-btn">
+                                Thêm vào giỏ hàng 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="news-watch">
+                <div class="title">
+                    TIN TỨC <span>EVO WATCH</span> 
+                </div>
+                <div class="news-content">
+                    <div class="news-item">
+                        <div class="news-item__img">
+                            <img src="./asset/img/shop-dong-ho-seiko-chinh-hang-2-e1507789314715.jpg" alt="" >
+                        </div>
+                        <div class="new-item__title">
+                            Mạnh Mẽ & Cuốn Hút với đồng hồ mặt rắn L'Duchen Silver Snake
+                        </div>
+                        <div class="new-item__description">
+                            Thương hiệu đồng hồ Thụy Sỹ L’Duchen đã mở rộng bộ sưu tập Art Collection của mình với mẫu đồng hồ mặt  của mình với mẫu đồng hồ mặt của mình với mẫu đồng hồ mặt
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-item__img">
+                            <img src="./asset/img/chronograph2048x2048.jpg" alt="" >
+                        </div>
+                        <div class="new-item__title">
+                            Chuyên gia chia sẻ 4 cách phân biệt đồng hồ hàng hiệu thật và giả
+                        </div>
+                        <div class="new-item__description">
+                            Việc sưu tầm và sở hữu những chiếc đồng hồ hàng hiệu xa xỉ luôn là một niềm đam mê của nhiều quý ông hiện ...                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-item__img">
+                            <img src="./asset/img/ban-biet-gi-ve-dong-ho-chronograph-1552766551.jpg" alt="" >
+                        </div>
+                        <div class="new-item__title">
+                            3 mẫu đồng hồ Chronograph 6 kim mức giá trung bình đáng mua nhất                        </div>
+                        <div class="new-item__description">
+                            1. Đồng hồ Jacques Lemans JL-1-1654  
+                            Đứng đầu danh sách Top 3 đồng hồ 6 kim là mẫu đồng hồ Jacques Lema...                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-item__img">
+                            <img src="./asset/img/4-ways-to-create-a-more-stable-healthy-work-environment.jpeg" alt="" >
+                        </div>
+                        <div class="new-item__title">
+                            Tại sao bạn nên yêu công việc của mình?
+                        </div>
+                        <div class="new-item__description">
+                            Bạn có yêu công việc của bạn không? Tôi chắc rằng sẽ có rất nhiều câu trả lời là không. Vậy, nếu bạn không...                        </div>
+                    </div>
+                </div>
+                <div class="view-all">
+                     <a href="./News.html" class="view-all_link">XEM TẤT CẢ - TIN TỨC </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-top">
+                <ul class="footer-top__list display-block">
+                    <li class="footer-top__item">
+                        <div class="footer-top__logo">
+                            <img src="./asset/img/logo.png" alt="" >
+                        </div>
+                    </li>
+                    <li class="footer-top__item">
+                        <div class="footer-infor__address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            30 Đường 2/9, Phường Bình Hiên, Quận Hải Châu, Đà Nẵng
+                        </div>
+                    </li>
+                    <li class="footer-top__item">
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:0987654321" class="footer-to__phone">0987 654 321</a>
+                    </li>
+                    <li class="footer-top__item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:evoteamthemes@gmail.com" class="footer-top__mail">evoteamthemes@gmail.com</a>
+                    </li>
+                </ul>
+                <ul class="footer-top__list">
+                    <li class="footer-top__item">
+                        <div class="footer-top__title">
+                            MUA HÀNG
+                        </div>
+                    </li>
+                    <li class="footer-top__item">
+                        <div class="footer-top__item-name">
+                            NAM
+                        </div>
+                    </li>
+                    <li class="footer-top__item">
+                        <div class="footer-top__item-name">
+                            NỮ
+                        </div>
+                    </li>
+                    <li class="footer-top__item">
+                        <div class="footer-top__item-name">
+                            PHỤ KIỆN
+                        </div>
+                    </li>
+                </ul>
+                <ul class="footer-top__list">
+                    <li class="footer-top__item">
+                        <div class="footer-top__title">
+                            DỊCH VỤ KHÁCH HÀNG
+                        </div>
+                    </li>
+                    <li class="footer-top__item">
+                        <div class="footer-top__item-name">
+                            NAM
+                        </div>
+                    </li>
+                    <li class="footer-top__item">
+                        <div class="footer-top__item-name">
+                            NỮ
+                        </div>
+                    </li>
+                    <li class="footer-top__item">
+                        <div class="footer-top__item-name">
+                            PHỤ KIỆN
+                        </div>
+                    </li>
+                </ul>
+                <ul class="footer-top__list">
+                    <li class="footer-top__item">
+                        <div class="footer-top__title">
+                            ĐĂNG KÍ NHẬN TIN
+                        </div>
+                    </li>
+                    <li class="footer-top__item">
+                        <div class="footer-top__item-description">
+                            Nhận thông tin sản phẩm mới nhất, tin khuyến mãi và nhiều hơn nữa.
+                        </div>
+                    </li>
+                    <li class="footer-top__item">
+                        <form >
+                            <input type="text" name="email" placeholder="Email của bạn" id="" class="footer-top__item--text">
+                            <input type="submit" value="Đăng kí" class="footer-top__item--btn">
+                        </form>
+                    </li>
+                    <li class="footer-top__item">
+                        <div class="footer-top__item--icon">
+                            <img src="./asset/img/payment_1.svg" alt="">
+                            <img src="./asset/img/payment_2.svg" alt="">
+                            <img src="./asset/img/payment_3.svg" alt="">
+                            <img src="./asset/img/payment_4.svg" alt="">
+                            <img src="./asset/img/payment_5.svg" alt="">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                © Bản quyền thuộc về Evo Themes | Cung cấp bởi Sapo
+            </div>
+        </div>
+        <div class="navigation">
+            <ul class="naviagtion-menu">
+                <li class="navigation-item ">
+                    <a href="./index.html" class="active">Trang chủ</a>
+                </li>
+                <li class="navigation-item">
+                    <div class="navigation-item-title">
+                        Giới thiệu <i class="fas fa-angle-down"></i>
+                    </div>
+                    <ul class="navigation-sub-list">
+                    
+                        <li class="navigation-sub-item"><a href="">Chính sách đổi trả</a></li>
+                        <li class="navigation-sub-item"><a href="">FAQs</a></li>
+                        <li class="navigation-sub-item"><a href="">Hướng dẫn thanh toán</a></li>
+                        <li class="navigation-sub-item"><a href="">Chính sách vận chuyển</a></li>
+                        <li class="navigation-sub-item"><a href="">Hệ thống của hàng</a></li>
+                    </ul>
+                </li>
+                <li class="navigation-item">
+                    <div class="navigation-item-title">
+                        <div>Nam</div><i class="fas fa-angle-down"></i>
+                    </div>   
+                    <ul class="navigation-sub-list">
+                        <li class="navigation-sub-item"><a href="">Đồng hồ KASHMIR</a></li>
+                        <li class="navigation-sub-item"><a href="">Đồng hồ WEIMAR</a></li>
+                        <li class="navigation-sub-item"><a href="">Đồng hồ COLOSSEUM</a></li>
+                    </ul>
+                </li>
+                <li class="navigation-item">
+                    <div class="navigation-item-title">
+                    Nữ <i class="fas fa-angle-down"></i>
+                    </div>
+                    <ul class="navigation-sub-list">
+                        <li class="navigation-sub-item"><a href="">Bán chạy nhất</a></li>
+                        <li class="navigation-sub-item"><a href="">Đồng hồ MELISSANI</a></li>
+                        <li class="navigation-sub-item"><a href="">Đồng hồ MORAINE</a></li>
+                    </ul>
+                </li>
+                <li class="navigation-item">
+                    <div class="navigation-item-title">
+                    Phụ kiện <i class="fas fa-angle-down"></i>
+                        
+                    </div>
+                    <ul class="navigation-sub-list">
+                        <li class="navigation-sub-item"><a href="">Dây đồng hồ</a></li>
+                        <li class="navigation-sub-item"><a href="">Kính râm</a></li>
+                        <li class="navigation-sub-item"><a href="">Kính mắt</a></li>
+                    </ul>
+                </li>
+                <li class="navigation-item">
+                    <a href="./News.html">Tin tức</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="./contact.html">Liên hệ</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="./login.html">Đăng nhập</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="./regeiter.html">Đăng ký</a>
+                </li>
+            </ul>
+        </div>
+        <div class="modal">
+        </div>
+    </div>
+    <script src="./asset/js/index.js"></script>
+</body>
+</html>

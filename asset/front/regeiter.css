@@ -1,0 +1,27 @@
+.regeiter-form
+{
+    margin: 20px 10px 0;
+
+}
+.link-login
+{
+    color: #916847;
+    font-size: 20px;
+    text-decoration: none;
+    width: 153px;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+@media (min-width:1024px)
+{
+    .regeiter-content
+    {
+        margin: 20px 300px;
+    }
+    
+    .login-submit
+    {
+        width: 300px;
+    }
+}

@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+.FAQ-content
+{
+    margin: 20px 160px;
+}
+.FAQ-box
+{
+    border: 1px solid rgb(226, 223, 223);
+    margin: 20px 0;
+    overflow: hidden;
+}
+.FAQ-box_title
+{
+    font-size: 20px;
+    border: 1px solid rgb(226, 223, 223);
+    background-color: #EBEBEB;
+    padding: 5px;
+    font-weight: 500;
+}
+.FAQ-box_title:hover
+{
+    background-color: #b98656;
+    cursor: pointer;
+    color: #fff;
+}
+.FAQ-box_content
+{
+    transition: all 0.5s ease;
+}
+@media (min-width: 740px) and (max-width: 1023px)
+{
+    .FAQ-content
+    {
+        margin: 10px;
+    }
+}
+/* Mobile */
+@media (max-width: 739px)
+{
+    .FAQ-content
+    {
+        margin: 10px;
+    }
+    .FAQ-box_title 
+    {
+        font-size: 15px;
+    }
+    .FAQ-box_content
+    {
+        font-size: 15px;
+    }
+
+}

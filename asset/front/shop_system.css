@@ -1,0 +1,64 @@
+.shop-system_content
+{
+    margin: 50px 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.shop-system__information
+{
+    margin: 0 20px;
+}
+select
+{
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+}
+.address-list
+{
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    max-height: 370px;
+    overflow-y: auto;
+    
+}
+.address-list-item
+{
+    display: flex;
+    padding: 5px ;
+}
+.address-list-item i
+{
+    padding-top: 5px;
+    font-size: 14px;
+}
+.address-content
+{
+    padding-left: 5px;
+}
+.address-name
+{
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.address-active
+{
+    background-color: #000;
+    color: white;
+}
+.address-list-item:hover
+{
+    background-color: #916841;
+    color: #fff;
+    cursor: pointer;
+}
+.address-description
+{
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
